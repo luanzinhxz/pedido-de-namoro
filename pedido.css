@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+#conteudo{
+    background-image: linear-gradient(to bottom right,aquamarine,indigo);
+    height: 105vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 330px;
+    margin: 0;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px){
+    body {
+        display: flex;
+    }
+}
